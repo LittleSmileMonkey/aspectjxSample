@@ -138,3 +138,4 @@ public class JavaTraceTest {
 ### 引用
 
 感谢[Hugo](https://github.com/JakeWharton/hugo)、[aspectj](https://www.eclipse.org/aspectj/)和[Aspectj](https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx)的开发者，该库基于以上库进行开发。
+待aspectjx merge pull request 后可将buildSrc从项目中移除，直接依赖android-aspectjx plugin
