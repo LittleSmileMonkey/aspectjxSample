@@ -1,0 +1,51 @@
+buildscript {
+    ext.aspectjVersion = "1.9.6"
+    repositories {
+        mavenLocal()
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.9.2'
+    }
+}
+
+apply plugin: 'groovy'
+apply plugin: 'com.novoda.bintray-release'
+
+targetCompatibility = JavaVersion.VERSION_1_8
+sourceCompatibility = JavaVersion.VERSION_1_8
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation 'com.android.tools.build:gradle:3.5.0'
+    implementation "org.aspectj:aspectjrt:1.9.6"
+    implementation "org.aspectj:aspectjtools:1.9.6"
+}
+
+repositories {
+    mavenLocal()
+    google()
+    jcenter()
+}
+
+sourceSets {
+    main {
+        groovy {
+            srcDir 'src/main/groovy'
+        }
+        resources {
+            srcDir 'src/main/resources'
+        }
+    }
+}
+
+publish {
+    userOrg = 'sleepym09'
+    repoName = 'aop'
+    groupId = 'com.sleep.aop'
+    artifactId = 'plugin'
+    publishVersion = '0.0.1'
+    desc = 'aop plutin'
+}

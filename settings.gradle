@@ -1,0 +1,4 @@
+include ':runtime'
+include ':app'
+//include ':plugin'
+rootProject.name = "aspectjxSample"

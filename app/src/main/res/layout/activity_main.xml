@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+    <!-- java -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JAVA"
+        android:background="#edcf93"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="javaMethodTest"
+        android:id="@+id/tv_java_method_test"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#abcdef"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="javaArgsTest"
+        android:id="@+id/tv_java_args_test"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#abcdef"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="javaReturnTest"
+        android:id="@+id/tv_java_return_test"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#abcdef"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="javaThreadTest"
+        android:id="@+id/tv_java_thread_test"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#abcdef"
+        android:layout_margin="5dp" />
+
+    <!--  kotlin  -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KOTLIN"
+        android:background="#edcf93"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="kotlinMethodTest"
+        android:id="@+id/tv_kotlin_method_test"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#abcdef"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="kotlinArgsTest"
+        android:id="@+id/tv_kotlin_args_test"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#abcdef"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="kotlinReturnTest"
+        android:id="@+id/tv_kotlin_return_test"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#abcdef"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="kotlinThreadTest"
+        android:id="@+id/tv_kotlin_thread_test"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#abcdef"
+        android:layout_margin="5dp" />
+
+    <!--  fast click test  -->
+    <Button
+        android:id="@+id/bt_click_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAST CLICK TEST"
+        android:background="#edcf93"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

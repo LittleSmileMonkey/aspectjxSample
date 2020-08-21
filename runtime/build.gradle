@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.aspectj:aspectjrt:${rootProject.ext.aspectjVersion}"
+}
+
+tasks.withType(Javadoc).all { enabled = false }
+
+publish {
+    userOrg = 'sleepym09'
+    repoName = 'aop'
+    groupId = 'com.sleep.aop'
+    artifactId = 'runtime'
+    publishVersion = '0.0.1'
+    desc = 'timetrace runtime'
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <!-- java -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JAVA"
+        android:background="#edcf93"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_margin="5dp" />
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="javaLambdaTest"
+        android:id="@+id/tv_java_lambda_test"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#abcdef"
+        android:layout_margin="5dp" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="javaAnnotationTest"
+        android:id="@+id/tv_java_annotation_test"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#abcdef"
+        android:layout_margin="5dp" />
+
+    <!-- kotlin -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KOTLIN"
+        android:background="#edcf93"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="kotlinLambdaTest"
+        android:id="@+id/tv_kotlin_lambda_test"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#abcdef"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="kotlinAnnotationTest"
+        android:id="@+id/tv_kotlin_annotation_test"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#abcdef"
+        android:layout_margin="5dp" />
+</LinearLayout>
